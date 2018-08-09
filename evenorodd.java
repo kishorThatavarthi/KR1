@@ -9,6 +9,8 @@ class Ideone
 	{
 		// your code goes here
 		int i=123;
+		if(i<=-1)
+		  System.out.println("it is negative");
 		if(i%2==0)
 		{
 			System.out.println("it is even");
