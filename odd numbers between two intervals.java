@@ -12,7 +12,7 @@ class Ideone
 		for(i=n1;i<=n2;i++)
 		{
 			if(i%2==1)
-			 System.out.println(i);
+			 System.out.print(i+" ");
 		}
 	}
 }
