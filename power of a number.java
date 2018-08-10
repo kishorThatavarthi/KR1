@@ -9,7 +9,7 @@ class Ideone
 	{
 		// your code goes here
 		int n=2,pow=4;
-		 double ans=Math.pow(n,4);
+		int ans=(int)Math.pow(n,4);
 		System.out.println(ans);
 	}
 }
