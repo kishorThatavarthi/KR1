@@ -2,9 +2,9 @@ public class Armstrong
 {
     public static void main(String[] args) 
      {
-        int n, count = 0, a, b, c, sum = 0;
+        int n, count = 0, a, b, c, sum = 0,n1=1,n2=100;
      
-        for(int i = 1; i <= 1000; i++)
+        for(int i = n1; i <= n2; i++)
         {
             n = i;
             while(n > 0)
