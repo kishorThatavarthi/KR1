@@ -7,7 +7,7 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
-	static float sumOfAP(float a, float d, 
+	static float sumOfAP(int a, int d, 
                                   int n)
     {
         int sum = 0;
