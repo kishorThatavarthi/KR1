@@ -24,7 +24,7 @@ class Ideone
 		 Scanner input=new Scanner(System.in);
 		 
 		int n = input.nextInt();;
-        int a = input.Int(), d = input.Int();
+        int a = input.nextInt(), d = input.nextInt();
         System.out.println(sumOfAP(a, d, n));
 	}
 }
