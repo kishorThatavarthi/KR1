@@ -9,7 +9,7 @@ class NumberOfWords
   for(int i=0;i<str.length();i++)
   {
    char ch=str.charAt(i);
-   if(Character.isWhiteSpace(ch))
+   if(Character.isWhitespace(ch))
    {
     count++;
     }
