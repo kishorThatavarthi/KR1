@@ -8,7 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n=123,rem=0,count=0;
+		int n=s.nextInt(),rem=0,count=0;
 		while(n>0)
 		{
 			rem=n%10;
@@ -16,6 +16,6 @@ class Ideone
 			n=n/10;
  
 		}
-		System.out.println(count);
+		System.out.print(count);
 	}
 }
