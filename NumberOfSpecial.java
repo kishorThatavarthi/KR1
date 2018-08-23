@@ -9,7 +9,7 @@ class NumberOfSpecial
   for(int i=0;i<str.length();i++)
   {
    char ch=str.charAt(i);
-   if(Character.isDigit(ch)||Character.isWhitespace(ch)||Character.isLetter(ch))
+   if(Character.isDigit(ch)||Character.isWhitespace(ch)||Character.isLetter(ch)||ch=='.')
    {
     
     }
