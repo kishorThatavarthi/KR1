@@ -8,6 +8,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner s=new Scanner(System.in);
 		int n=s.nextInt(),rem=0,count=0;
 		while(n>0)
 		{
