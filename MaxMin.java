@@ -27,7 +27,7 @@ class MaxMin
      min=a[i];
     }
   }
- System.out.print(max+" "+min);
+ System.out.print(min+" "+max);
  }
 }
   
