@@ -4,8 +4,8 @@ class StringGreater
  public static void main(String args[])
 {
  Scanner s=new Scanner(System.in);
- String str=s.nextLine();
- String str1=s.nextLine();
+ String str=s.next();
+ String str1=s.next();
  int i=str.compareTo(str1);
  int j=str1.compareTo(str);
  if(i>0 && j<0)
