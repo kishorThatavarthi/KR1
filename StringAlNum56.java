@@ -19,8 +19,8 @@ class StringAlNum56
    }
  }
  if(a && b)
-   System.out.print("yes");
+   System.out.print("Yes");
  else
-   System.out.print("no");
+   System.out.print("No");
  }
 }
