@@ -6,7 +6,7 @@ class ArrayNumber58
   boolean b=false;
  Scanner s=new Scanner(System.in);
  int a=s.nextInt();
- int b=s.nextInt();
+ int d=s.nextInt();
  int c[]=new int[a];
  for(int i=0;i<c.length;i++)
  {
@@ -14,7 +14,7 @@ class ArrayNumber58
   }
  for(int i=0;i<c.length;i++)
  {
-  if(c[i]==b)
+  if(c[i]==d)
   {
     b=true;
    }
