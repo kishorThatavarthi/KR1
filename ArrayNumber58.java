@@ -3,7 +3,7 @@ class ArrayNumber58
 {
  public static void main(String[] args)
 {
-  boolen b=false;
+  boolean b=false;
  Scanner s=new Scanner(System.in);
  int a=s.nextInt();
  int b=s.nextInt();
