@@ -1,5 +1,5 @@
 import java.util.*;
-class NumberOfWords
+class NumberOfWords52
 {
  public static void main(String[] args)
  {
