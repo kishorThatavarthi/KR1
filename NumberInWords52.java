@@ -7,7 +7,7 @@ class NumberInWords52
   int a=s.nextInt();
   switch(a)
   {
-    case 1: System.out.print("one");
+    case 1: System.out.print("One");
              break;
    case 2: System.out.print("Two");
              break;
