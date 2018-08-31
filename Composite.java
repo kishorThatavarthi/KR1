@@ -13,7 +13,7 @@ class Composite
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		boolean b=false;
-		for(int i=2;i<n;i++)
+		for(int i=3;i<n;i++)
 		{
 			if(n%i==0)
 			{
