@@ -12,7 +12,7 @@ class LandR
   {
    if(i==a)
     {
-     b=true;
+     f=true;
      break;
      }
    }
