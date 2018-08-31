@@ -7,7 +7,7 @@ class LandR
   int a=s.nextInt();
   int b=s.nextInt();
   int c=s.nextInt();
-  boolean b=false;
+  boolean f=false;
   for(int i=b+1;i<c;i++)
   {
    if(i==a)
@@ -16,7 +16,7 @@ class LandR
      break;
      }
    }
-  if(b)
+  if(f)
    System.out.print("yes");
   else
     System.out.print("no");
