@@ -8,7 +8,7 @@ class LandR
   int b=s.nextInt();
   int c=s.nextInt();
   boolean b=false;
-  for(int i=b;i<c;i++)
+  for(int i=b+1;i<c;i++)
   {
    if(i==a)
     {
