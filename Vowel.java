@@ -5,7 +5,7 @@ class Vowel
  {
   Scanner s=new Scanner(System.in);
   String str=s.next();
-  boolen b=false;
+  boolean b=false;
   for(int i=0;i<str.length();i++)
   {
    char ch=str.charAt(i);
