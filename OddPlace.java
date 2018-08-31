@@ -15,8 +15,10 @@ class OddPlace
 	            String str=Integer.toString(n);
 	            for(int i=1;i<str.length();i++)
 	            {
-	            	if(i%2==1)
-	            	 System.out.print(str.charAt(i)+" ");
+			char ch=str.charAt(i);
+	            	int a=(int)ch;
+			if(a%2==1)
+			  System.out.print(a);
 	            }
 	}
 }
