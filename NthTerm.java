@@ -7,7 +7,7 @@ class NthTerm
   int a=s.nextInt();
   int d=s.nextInt();
   int n=s.nextInt();
-  System.out.print(a+(2n-1)d);
+  System.out.print(a+(2n-1)*d);
   }
  }
   
