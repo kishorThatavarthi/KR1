@@ -7,7 +7,7 @@ class Surface
   int l=s.nextInt();
   int b=s.nextInt();
   int h=s.nextInt();
-  System.out.print(2*l*b+2*b*h+2*l*h);
+  System.out.print(2*l*b+2*b*h+2*l*h+" ");
   System.out.print(l*b*h);
   }
  }
