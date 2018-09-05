@@ -14,14 +14,18 @@ class Last
 		String str=s.next();
 		int n=s.nextInt();
 		int count=0;
+		String str1="";
 		for(int i=str.length()-1;i>0;i--)
 		{
-		  System.out.print(str.charAt(i));
+		  char ch=str.charAt(i);
+		  str1=str1+ch;
 		  count++;
 		  if(count==n)
 		  {
 		   break;
 		   }
 		}
+		StringBuffer sb=new StringBuffer(str1);
+		System.out.print(sb.reverse());
 	}
 }
