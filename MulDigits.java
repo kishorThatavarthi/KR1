@@ -8,7 +8,7 @@ class MulDigits
   int rev=1;
   while(a>0)
   {
-   int rem=n%10;
+   int rem=a%10;
    rev=rev*rem;
    a=a/10;
    }
