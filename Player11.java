@@ -19,7 +19,7 @@ class Player11
 			                break;
 		     case "Friday" : System.out.print("no");
 			                break;
-			 case "Satday" : System.out.print("no");
+			 case "Saturday" : System.out.print("no");
 			                break;
 			                
 			                
