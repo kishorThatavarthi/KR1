@@ -6,6 +6,7 @@ class Player43
  Scanner s=new Scanner(System.in);
  String str=s.next();
  String str1=s.next();
+ boolean b=false;
  for(int i=0;i<str.length();i++)
  {
   if(str.substring(i).equals(str1))
